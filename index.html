@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhihui Liu - Personal Website</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        /* 基础样式 */
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f8f8;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 850px;
+            width: 100%;
+            margin: 30px auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-sizing: border-box;
+        }
+        h1 {
+            color: #0056b3;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.8em;
+        }
+        .subtitle {
+            text-align: center;
+            font-size: 1.3em;
+            color: #555;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        h2 {
+            color: #0056b3;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            position: relative;
+            padding-left: 20px;
+        }
+        h2::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            background-color: #0056b3;
+            border-radius: 50%;
+        }
+
+        p {
+            margin-bottom: 15px;
+            line-height: 1.7;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+        ul li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+        ul li::before {
+            content: '•';
+            color: #0056b3;
+            position: absolute;
+            left: 0;
+        }
+        .section-item {
+            margin-bottom: 25px;
+            padding: 15px 20px;
+            background-color: #fcfcfc;
+            border-left: 4px solid #0056b3;
+            border-radius: 5px;
+        }
+        .section-item h3 {
+            margin-top: 0;
+            margin-bottom: 8px;
+            color: #0056b3;
+            font-size: 1.4em;
+        }
+        .section-item p {
+            margin-bottom: 8px;
+        }
+        .date-range {
+            font-size: 0.95em;
+            color: #666;
+            margin-left: 15px;
+            white-space: nowrap;
+        }
+        .company-name {
+            font-weight: bold;
+            color: #333;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .profile-picture {
+            display: block;
+            margin: 0 auto 30px;
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border: 5px solid #0056b3;
+            box-shadow: 0 0 15px rgba(0,0,0,0.15);
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            .container {
+                margin: 15px auto;
+                padding: 25px;
+            }
+            h1 {
+                font-size: 2.2em;
+            }
+            .subtitle {
+                font-size: 1.1em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            .section-item h3 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Zhihui Liu</h1>
+        <p class="subtitle">Computer Vision Expert</p>
+
+        <h2>About Me</h2>
+        <p>Zhihui Liu is a dedicated Computer Vision Expert with a robust background in Artificial Intelligence. He earned his Master's degree from Xiamen University, specializing in AI within the Multimedia Lab, following his Bachelor's in Automation with an AI focus from Central South University. With five years of experience as a Computer Vision Engineer at Meitu Inc., Zhihui has developed a profound understanding of the field. He currently serves as a Computer Vision Expert at Truesight (Xiamen Zhenjing Technology), where he continues to innovate in areas such as object detection, image recognition, image generation, AIGC, and comprehensive image and video synthesis. His expertise lies in transforming cutting-edge research into practical applications, driving advancements in visual intelligence.</p>
+
+        <h2>Interests</h2>
+        <ul>
+            <li>Object Detection</li>
+            <li>Image Recognition</li>
+            <li>Image Generation</li>
+            <li>AIGC (Generative AI)</li>
+            <li>Image and Video Synthesis</li>
+        </ul>
+
+        <h2>Education</h2>
+        <div class="section-item">
+            <h3>Master of Engineering in Artificial Intelligence</h3>
+            <p><strong class="company-name">Xiamen University</strong><span class="date-range">September 2013 - June 2016</span></p>
+            <p>Graduated from the Multimedia Lab of the Department of Artificial Intelligence. Focused on advanced AI theories and applications.</p>
+        </div>
+        <div class="section-item">
+            <h3>Bachelor of Engineering in Automation (AI Focus)</h3>
+            <p><strong class="company-name">Central South University</strong><span class="date-range">September 2007 - June 2011</span></p>
+            <p>Majored in Automation with an emphasis on Artificial Intelligence. Established foundational knowledge in computer science and intelligent systems.</p>
+        </div>
+
+        <h2>Work Experience</h2>
+        <div class="section-item">
+            <h3>Computer Vision Expert</h3>
+            <p><strong class="company-name">Truesight (Xiamen Zhenjing Technology)</strong><span class="date-range">April 2022 - Present</span></p>
+            <p>Leading and contributing to cutting-edge computer vision projects, focusing on advanced algorithms for image and video processing in practical applications.</p>
+            <p><a href="https://www.zhenjingkeji.cn/" target="_blank">Company Website</a></p>
+        </div>
+        <div class="section-item">
+            <h3>Computer Vision Engineer</h3>
+            <p><strong class="company-name">Meitu Inc.</strong><span class="date-range">July 2016 - June 2021 (5 years)</span></p>
+            <p>Engaged in research and development of computer vision technologies for various image products, contributing to feature development and performance optimization.</p>
+            <p><a href="https://www.meitu.com/" target="_blank">Company Website</a></p>
+        </div>
+    </div>
+</body>
+</html>
